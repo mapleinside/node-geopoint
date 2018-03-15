@@ -1,0 +1,24 @@
+{
+  "name": "geopoint",
+  "description": "Representation of a geographic point for node.js and the browser",
+  "version": "2.0.0",
+  "author": "David Wood <bitprobe@gmail.com>",
+  "contributors": "Roman Boulland <roman.boulland@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapleinside/node-geopoint"
+  },
+  "keywords": ["geolocation", "point", "distance", "bounding box", "radius"],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.11.0",
+    "istanbul": "~0.1.37"
+  },
+  "main": "./geopoint.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha --check-leaks"
+  }
+}
