@@ -2,6 +2,8 @@
 
 > Geographic point representation for Node.js and the browser
 
+> ❌ Sorry, but this library is no longer maintained. Please find an alternative.
+
 GeoPoint represents a geographic point for Node.js and the browser, and provides distance between points and radius bounding box calculations.
 
 ## Usage
@@ -36,7 +38,7 @@ const statueOfLiberty = new GeoPoint(40.689604, -74.04455);
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Nicolas Cava
+Copyright (c) 2020 Nicolas Cava
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
